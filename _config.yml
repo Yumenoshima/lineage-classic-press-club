@@ -1,3 +1,17 @@
 title: Lineage Classic Press Club
-description: リネージュクラシック記者クラブ（情報・ニュース・報道）
-theme: jekyll-theme-minimal
+description: リネージュクラシックのニュース・情報・報道メディア
+theme: minima
+
+lang: ja
+timezone: Asia/Tokyo
+
+markdown: kramdown
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+permalink: /news/:year/:month/:day/:title/
+
+header_pages:
+  - about.md
